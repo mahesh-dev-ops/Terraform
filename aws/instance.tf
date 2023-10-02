@@ -20,7 +20,7 @@ resource "aws_instance" "first-instance" {
   tags = {
     Name        = "First-instance-from-tf"
     environment = "research and development"
-    department  = "DeOPs"
+    department  = "DevOPs"
   }
 }
 
