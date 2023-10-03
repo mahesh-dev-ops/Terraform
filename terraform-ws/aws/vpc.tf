@@ -12,3 +12,5 @@ resource "aws_subnet" "first-subnet-01" {
     Name = "first-subnet-from-tf"
   }
 }
+
+resource "aws_internet_gateway" ""
